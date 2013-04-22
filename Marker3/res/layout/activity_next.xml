@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/welcome_background_tile" >
+
+    <ImageView
+        android:id="@+id/kik_banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/intro_screen_graphics" />
+
+    <TextView
+        android:id="@+id/login_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/settings_divider"
+        android:gravity="center_vertical"
+        android:paddingLeft="15.0dip"
+        android:text="Marker"
+        android:textColor="#ff000000"
+        android:textSize="14.0dip"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/header_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-1.0dip"
+        android:src="@drawable/settings_divider_arrow" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/header_arrow"
+        android:fillViewport="true" >
+
+        <LinearLayout
+          
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15.0dip"
+                android:text="音乐"
+                android:textColor="#ffffffff"
+                android:textSize="18.0dip" />
+
+            <EditText
+                android:id="@+id/music"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip"
+                android:background="@drawable/text_bg"
+                android:hint="  例如: 忐忑..."
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15.0dip"
+                android:text="书籍"
+                android:textColor="#ffffffff"
+                android:textSize="18.0dip" />
+
+            <EditText
+                android:id="@+id/books"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip"
+               android:background="@drawable/text_bg"
+                android:hint="  例如: 金瓶梅...."
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+             <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/separator" />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15.0dip"
+                android:text="车子"
+                android:textColor="#ffffffff"
+                android:textSize="18.0dip" />
+
+            <EditText
+                android:id="@+id/car"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip"
+                 android:background="@drawable/text_bg"
+                android:hint="  例如: 七手拖拉机..."
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/separator" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15.0dip"
+                android:text="发型"
+                android:textColor="#ffffffff"
+                android:textSize="18.0dip" />
+
+            <EditText
+                android:id="@+id/haircut"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8.0dip"
+            android:background="@drawable/text_bg"
+                android:hint="  例如: 光头秃驴...."
+                android:textColor="#ffffffff"
+                android:textSize="14.0dip"
+                android:textStyle="bold" />
+             <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/separator" />
+
+             <Button
+                 android:id="@+id/next"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="8.0dip"
+                 android:background="@drawable/bg_next"
+                 android:text="上一页"
+                 android:textColor="#ffffff"
+                 android:textSize="18.0dip"
+                 android:textStyle="bold" />
+             
+             <Button
+                 android:id="@+id/result"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_margin="8.0dip"
+                 android:background="@drawable/bg_next"
+                 android:text="看结果"
+                 android:textColor="#ffffff"
+                 android:textSize="18.0dip"
+                 android:textStyle="bold" />
+           
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello Android! This is my First android Application written by eclipse:)</string>
+    <string name="ok">accept</string>
+
+</resources>

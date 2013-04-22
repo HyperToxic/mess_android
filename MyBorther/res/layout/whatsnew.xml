@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myBrother"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pic_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/tips"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8.0dip"
+        android:layout_marginBottom="110dp"
+        android:background="@drawable/bg_next"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="点击图片翻页"
+        android:textColor="#ffffff"
+        android:textSize="18.0dip"
+        android:textStyle="bold" />
+
+</RelativeLayout>

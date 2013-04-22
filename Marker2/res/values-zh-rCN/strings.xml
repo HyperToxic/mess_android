@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Marker</string>
+    <string name="nightMod">夜间模式</string>
+    <string name="share">分享</string>
+    <string name="action_settings">关于</string>
+    <string name="av">明星：</string>
+    <string name="av_hint">你喜欢哪个明星</string>
+    <string name="music">音乐：</string>
+    <string name="music_hint">最喜欢的歌</string>
+    <string name="fm">性别：</string>
+    <string name="job">职业：</string>
+    <string name="job_hint">你丫是做什么的</string>
+    <string name="fm_hint">性别有三种哦</string>
+    <string name="hello_world">auto marker by guohao</string>
+    <string name="your_name">姓名:</string>
+    <string name="your_name_hint">输入一个人名字</string>
+    <string name="get">结果</string>
+    <string name="height">身高：</string>
+    <string name="height_hint">比如10mm</string>
+    <string name="what_you_like_most">爱好:</string>
+    <string name="what_you_like_most_hint">你丫的喜欢做啥</string>
+    <string name="quit">quit</string>
+    <string name="about">关于</string>
+    <string name="settings">设置</string>
+    <string name="jobR">撞墙，你没前途！</string>
+    <string name="nameR">这是个人名字吗？</string>
+    <string name="avR">贱人就是矫情</string>
+    <string name="sexR">你确定？不是吧</string>
+    <string name="likeR">喜欢顶个鸟用</string>
+    <string name="musicR">你果然是屌丝！</string>
+    <string name="heiR">大胖小子</string>
+    <string name="clear">重置</string>
+    <string name="about_me">
+        本软件仅供娱乐，千万别当真，禁止一切商业用途！
+        陆续更新，请继续关注！
+        -----------
+        -----------
+        -----------
+        -----------省略一堆废话--------
+        -----------
+        guohao@2013.4.19
+        
+         </string>
+    <string name="contact_me">联系我</string>
+
+</resources>

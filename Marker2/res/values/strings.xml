@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="app_name">Marker</string>
+    <string name="nightMod">NightMod</string>
+      <string name="share">share</string>
+    <string name="marker_version">Marker V2.0</string>
+    <string name="action_settings">about</string>
+    <string name="av">av：</string>
+    <string name="av_hint">which bitch u fuck</string>
+    <string name="music">music：</string>
+    <string name="music_hint">most like song</string>
+    <string name="fm">sex：</string>
+    <string name="job">job：</string>
+    <string name="job_hint">what is you</string>
+    <string name="fm_hint">f or m or neither</string>
+    <string name="hello_world">auto marker</string>
+    <string name="your_name">name:</string>
+    <string name="your_name_hint">input a man name</string>
+    <string name="get">result</string>
+    <string name="height">height：</string>
+    <string name="height_hint">example 175mm</string>
+    <string name="what_you_like_most">hubby:</string>
+    <string name="what_you_like_most_hint">what is you offer</string>
+    <string name="quit">quit</string>
+    <string name="about">about</string>
+    <string name="settings">settings</string>
+    <string name="jobR">bitch can do this job</string>
+    <string name="nameR">not a man name</string>
+    <string name="avR">bitch is bitch</string>
+    <string name="sexR">guess you a gay</string>
+    <string name="likeR">wow you crazy</string>
+    <string name="musicR">i heard before</string>
+    <string name="heiR">such a high man</string>
+    <string name="clear">clear</string>
+    <string name="about_me">This is an 
+        agreement between WhatsApp Inc., a California corporation (“MARKER"), 
+        the owner and operator of www.whatsapp.com (the “WhatsApp Site”),
+         the WhatsApp software, including WhatsApp Messenger (collectively, 
+         including all content provided by WhatsApp through WhatsApp
+          Messenger and the WhatsApp Site, the "WhatsApp Service", or 
+          the "Service"), and you (“you” or “You”), a user of the Service. 
+          BY USING THE SERVICE, YOU ACKNOWLEDGE AND AGREE TO 
+          THESE TERMS OF SERVICE, AND WHATSAPP'S PRIVACY POLICY, 
+          WHICH CAN BE FOUND AT http://www.whatsapp.com/legal/#Privacy, 
+          AND WHICH ARE INCORPORATED HEREIN BY REFERENCE. If you 
+          choose to not agree with any of these terms, you may not use the Service. </string>
+    <string name="contact_me">contact me</string>
+
+</resources>

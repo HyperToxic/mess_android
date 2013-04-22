@@ -1,0 +1,159 @@
+<ScrollView
+  android:layout_width="fill_parent" 
+ android:layout_height="fill_parent"
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+<AbsoluteLayout
+   
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="20dip"
+        android:text="@string/your_name" />
+
+    <EditText
+        android:id="@+id/your_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dip"
+        android:layout_y="10dip"
+        android:hint="@string/your_name_hint"
+        android:inputType="textMultiLine"
+        android:width="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="80dip"
+        android:text="@string/height" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dip"
+        android:layout_y="70dip"
+        android:hint="@string/height_hint"
+        android:inputType="textMultiLine"
+        android:width="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="140dip"
+        android:text="@string/fm" />
+
+    <EditText
+        android:id="@+id/fm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dip"
+        android:layout_y="130dip"
+        android:hint="@string/fm_hint"
+        android:inputType="textMultiLine"
+        android:width="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="200dip"
+        android:text="@string/job" />
+
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dip"
+        android:layout_y="190dip"
+        android:hint="@string/job_hint"
+        android:inputType="textMultiLine"
+        android:width="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="260dip"
+        android:text="@string/what_you_like_most" />
+
+    <EditText
+        android:id="@+id/what_you_like_most"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dip"
+        android:layout_y="250dip"
+        android:hint="@string/what_you_like_most_hint"
+        android:inputType="textMultiLine"
+        android:width="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="320dip"
+        android:text="@string/av" />
+
+    <EditText
+        android:id="@+id/av"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dip"
+        android:layout_y="310dip"
+        android:hint="@string/av_hint"
+        android:inputType="textMultiLine"
+        android:width="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dip"
+        android:layout_y="380dip"
+        android:text="@string/music" />
+
+    <EditText
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dip"
+        android:layout_y="370dip"
+        android:hint="@string/music_hint"
+        android:inputType="textMultiLine"
+        android:width="200dp" />
+
+    <Button
+        android:id="@+id/bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="80dip"
+        android:layout_y="430dip"
+        android:orientation="horizontal"
+        android:textColor="@drawable/button_font_style"
+        android:text="@string/get" />
+    
+    <Button
+        android:id="@+id/bn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="180dip"
+        android:layout_y="430dip"
+        android:orientation="horizontal"
+        android:textColor="@drawable/button_font_style"
+        android:text="@string/clear" />
+
+</AbsoluteLayout>
+
+</ScrollView>
+
+
+
+
